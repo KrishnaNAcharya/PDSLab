@@ -1,0 +1,23 @@
+import numpy as np;
+tup=(1.1,2.2,3.3,4.4,5.5)
+lis=[1.1,2.2,3.3,4.4,5.5]
+arrt=np.array(tup,dtype=float)
+arrl=np.array(lis,dtype=float)
+print(arrt)
+print(arrl)
+arr=np.array([0,1,2,3,4,5,6,7,8])
+slic=arr[2:7]
+ind=arr[[2,3,5]]
+boo=arr%2==0
+booo=arr[boo]
+print(booo)
+print(ind)
+print(slic)
+min=np.min(arr)
+max=np.max(arr)
+suum=np.sum(arr)
+cum=np.cumsum(arr)
+print(min)
+print(max)
+print(suum)
+print(cum)

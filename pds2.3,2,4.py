@@ -1,0 +1,18 @@
+import numpy as np
+A=np.array([[1,2],[3,4]])
+B=np.array([[5,6],[7,8]])
+X=np.array([9,0])
+Y=np.array([11,12])
+dot=np.dot(X,Y)
+outer=np.outer(X,Y)
+inner=np.inner(A,B)
+prod=np.matmul(A,B)
+exponent=2
+matex=np.linalg.matrix_power(A,exponent)
+linearmatrix=np.linalg.solve(A,X)
+print(dot)
+print(outer)
+print(inner)
+print(prod)
+print(matex)
+print(linearmatrix)

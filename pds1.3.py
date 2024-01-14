@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.array([1,2,3,4,5,6])
+minn=np.min(arr)
+maxx=np.max(arr)
+cumm=np.cumsum(arr)
+summ=np.sum(arr)
+print(cumm)
+print(summ)
+print(maxx)
+print(minn)
